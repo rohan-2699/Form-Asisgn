@@ -12,6 +12,20 @@ h3 {
     font-weight: 700;
 }
 
+/* Watermark */
+.watermark{
+    position: fixed;
+    bottom: 250px;
+    right: 431px;
+    opacity: 0.5;
+    z-index: 99;
+}
+.watermark h1{
+    color: #000;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
 /* Head */
 .head_section .left-content .logo img{
     width: 60px;
